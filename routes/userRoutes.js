@@ -1,15 +1,15 @@
 import express from "express";
 import {
-    registerUser,
-    loginUser,
-    updateUser,
-    deleteUser,
-    logoutUser,
-    getAllUsers,
-    getUserById
+  registerUser,
+  loginUser,
+  updateUser,
+  deleteUser,
+  logoutUser,
+  getAllUsers,
+  getUserById,
 } from "../controllers/userController.js";
 
-import { requireSignIn, isAdmin } from "../middlewares/authMiddleware.js";
+import { requireSignIn, isAdmin } from "../Middleware/authMiddleware.js"
 
 const router = express.Router();
 

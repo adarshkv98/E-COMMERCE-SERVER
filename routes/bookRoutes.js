@@ -1,6 +1,6 @@
 import express from "express";
-import upload from "../middlewares/uploadMiddleware.js";
-import { requireSignIn, isAdmin } from "../middlewares/authMiddleware.js";
+import upload from "../Middleware/uploadMiddleware.js";
+import { requireSignIn, isAdmin } from "../Middleware/authMiddleware.js";
 import {
     createBook,
     getAllBooks,
